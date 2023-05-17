@@ -221,3 +221,201 @@ form {
 #withBtn {
     background: rgba(255, 0, 0, 0.845);
 }
+
+@media only screen and (max-width: 992px) {
+    .direction {
+        flex-direction: column;
+    }
+
+    .col-2 {
+        width: 100%;
+        height: 25vh;
+    }
+
+    .col-2 ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-10 {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .col-10 h1 {
+        text-align: center;
+    }
+
+    .box {
+        width: 25.5vw;
+    }
+
+    .diposit {
+        padding-bottom: 1%;
+    }
+
+    .withdrawSec {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .withdrawSec h3,
+    .diposit h3 {
+        width: 25%;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #withdraw,
+    #dipo {
+        width: 50%;
+    }
+
+    #withBtn,
+    #dipoBtn {
+        width: 13%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .login-body h1 {
+        font-size: 18px;
+        -webkit-text-stroke: transparent;
+        text-shadow: 0 0 1px #000;
+    }
+
+    #email,
+    #password {
+        font-size: 15px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+
+    .diposit,
+    .withdrawSec {
+        display: block;
+    }
+
+    .main-dashboard {
+        height: 100%;
+    }
+
+    .container {
+        height: fit-content;
+        overflow: hidden;
+    }
+
+    .col-10 {
+        height: fit-content;
+        padding: 0 3%;
+    }
+
+    .diposit h3,
+    .withdrawSec h3 {
+        margin: 3% 0 0 0;
+        width: 100%;
+    }
+
+    #dipo,
+    #withdraw {
+        width: 70%;
+    }
+
+    #dipoBtn,
+    #withBtn {
+        width: 20%;
+        margin-left: -3px;
+    }
+}
+
+@media only screen and (max-width: 492px) {
+    .col-3 {
+        width: 100%;
+    }
+
+    .col-10 {
+        padding: 0;
+    }
+
+    .box {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .diposit,
+    .withdrawSec {
+        padding: 1% 3%;
+    }
+
+    .withdrawSec {
+        padding-bottom: 4%;
+    }
+
+    #dipo,
+    #withdraw {
+        font-size: 15px;
+        width: 85%;
+        border-radius: 10px;
+    }
+
+    #dipo {
+        width: 91%;
+    }
+
+    #dipoBtn,
+    #withBtn {
+        width: 97%;
+        font-size: 15px;
+        margin-right: 0;
+        border-radius: 10px;
+        padding: 10px 0;
+        height: auto;
+        margin-left: 0.5px;
+    }
+
+    #withBtn {
+        width: 90%;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .login-body h1 {
+        font-size: 15px;
+    }
+
+    #email,
+    #password {
+        font-size: 12px;
+        padding: 10px 10px;
+        border-radius: 5px;
+    }
+
+    #login {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 315px) {
+    .login-body h1 {
+        font-size: 12px;
+    }
+
+    #email,
+    #password {
+        font-size: 9px;
+    }
+
+    #login {
+        font-size: 9px;
+    }
+}
